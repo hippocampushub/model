@@ -87,6 +87,13 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+  background: #393745;
+  font-family: "Titillium Web", sans-serif;
+  color: white;
+  padding: 8px;
+}
+
 a {
   color: #b2c0d0;
 }
