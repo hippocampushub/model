@@ -17,13 +17,6 @@ html {
   line-height: 1.4;
 }
 
-body {
-  background: #393745;
-  font-family: "Titillium Web", sans-serif;
-  color: white;
-  padding: 8px;
-}
-
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -93,6 +86,48 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+a {
+  color: #b2c0d0;
+}
+
+button {
+  text-transform: uppercase;
+  border-style: solid;
+  font-size: 12px;
+}
+
+.button-primary {
+  border-color: #ffc90c;
+  background: #393745;
+  color: white;
+  min-height: 30px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.button-primary:active {
+  background: #ffc90c;
+  outline: none;
+}
+
+.filter-button-primary {
+  border-color: white;
+  background: #b2c0d0;
+  color: white;
+  min-height: 30px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.filter-button-primary:active {
+  border-color: white;
+  background: #393745;
+  color: white;
+  min-height: 30px;
+  box-sizing: border-box;
+  outline: none;
+}
 
 /* ==========================================================================
    Helper classes
@@ -266,48 +301,4 @@ textarea {
   h3 {
     page-break-after: avoid;
   }
-}
-
-/* Custom css */
-
-a {
-  color: #b2c0d0;
-}
-
-button {
-  text-transform: uppercase;
-  border-style: solid;
-  font-size: 12px;
-}
-
-.button-primary {
-  border-color: #ffc90c;
-  background: #393745;
-  color: white;
-  min-height: 30px;
-  box-sizing: border-box;
-  outline: none;
-}
-
-.button-primary:active {
-  background: #ffc90c;
-  outline: none;
-}
-
-.filter-button-primary {
-  border-color: white;
-  background: #b2c0d0;
-  color: white;
-  min-height: 30px;
-  box-sizing: border-box;
-  outline: none;
-}
-
-.filter-button-primary:active {
-  border-color: white;
-  background: #393745;
-  color: white;
-  min-height: 30px;
-  box-sizing: border-box;
-  outline: none;
 }
