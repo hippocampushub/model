@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://_N_E/styles.module.scss"],"names":[],"mappings":"AACA,yBACE,0BAAA,CACA,eAAA","file":"static/css/7eb6fe42fa85016d.css","sourcesContent":["\n.container {\n  padding: 1.5rem 1.5rem 1rem;\n  max-width: 520px;\n}\n"],"sourceRoot":""}
