@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://_N_E/src/components/Histogram/histogram.module.scss"],"names":[],"mappings":"AACA,4BACE,gBAAA","file":"static/css/0dbd919c01ee9ad3.css","sourcesContent":["\n.container {\n  aspect-ratio: 3 / 2;\n}\n"],"sourceRoot":""}
